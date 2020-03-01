@@ -1,0 +1,97 @@
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  header {
+      background-color: rgba(34, 49, 52, .9);
+      height: 65px;
+      widows: 100%;
+  }
+
+  .header-left {
+      float: left;
+  }
+
+  .logo {
+      width: 124px;
+      padding: 20px 0px;
+  }
+
+  .header-right {
+      float: right;
+      background-color: rgba(255, 255, 255, .3);
+      transition: all .5;
+  }
+
+  .header-right:hover {
+      background-color: rgba(255, 255, 255, .5)
+  }
+
+  .header-right a {
+      color: #ffffff;
+      padding: 0px 25px;
+      line-height: 65px;
+      display: block;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    color: white;
+    text-align: center; /* インラインを中央に寄せた */
+  }
+  
+  .container {
+    width: 1170px;
+    margin: 0 auto; /* ブロックを中央に寄せた */
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+      padding: 8px 24px;
+      color: #ffffff;
+      display: inline-block;
+      opacity: .8;
+      border-radius: 4px;
+  }
+
+  .signup {
+      background-color: #239b76;
+      margin: 15px 0px 15px 0px;
+  }
+
+  .facebook {
+      background-color: #3b5998;
+      margin-right: 10px;
+  }
+
+  .twitter {
+      background-color: #55acee;
+  }
+
+  .btn:hover {
+      opacity: 1;
+  }
+
+  .fa {
+      margin-right: 5px;
+  }
